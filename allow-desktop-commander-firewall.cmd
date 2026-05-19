@@ -1,6 +1,7 @@
 @echo off
 setlocal
 
+set "TOOL_VERSION=v1.0"
 set "RULE_NAME=Desktop Commander"
 set "PROGRAM_PATH=C:\Program Files\Desktop Commander\Desktop Commander.exe"
 
@@ -10,6 +11,7 @@ echo.
 echo ============================================================
 echo  Desktop Commander Diagnose Tool
 echo ============================================================
+echo  Version %TOOL_VERSION%
 echo.
 echo This tool will add a Windows Firewall rule for Desktop Commander.
 echo.
